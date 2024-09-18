@@ -1,6 +1,4 @@
-
-public class Rectangle
-{
+public class Rectangle{
 
 	private double length;
 	private double width;
@@ -40,6 +38,7 @@ public class Rectangle
 		this.width = width;
 	}
 
+	@Override
 	public String toString() 
 	{
 		return "Rectangle the Length is : " + 
